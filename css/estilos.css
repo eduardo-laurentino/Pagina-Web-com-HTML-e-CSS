@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(232, 226, 226) url("../images/bg-topo.jpg") repeat-x;
+    font-size: 12px;
+    font-family: arial, verdana, tahoma;
+    text-align: center;
+
+}
+
+#topo{
+    height: 127px;
+    width: 752px;
+    margin: 0 auto;
+}
+
+#topo figure img{
+    float: left;
+    height: 34px;
+    width: 238px;
+    margin-top: 40px;
+
+}
+
+#menu{
+    height: 28px;
+    width: 752px; 
+    margin: 0 auto;
+    color: #FFF;
+    text-align: left;
+}
+
+
+#imagem{
+    height: 192px;
+    background: url("../images/imagem-bg.jpg");
+}
+
+#conteudo{
+    width: 752px;
+    background: #f7fafb;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+#bloco-direito{
+    height: 350px;
+    width: 258px;
+    background: #FFE153;
+    float: right;
+    margin: 14px 5px 0 0;
+    display: inline;
+    border-radius: 0 0 10px 10px;
+}
+
+#bloco-direito h1{
+    font: 19px "Trebuchet MS", Arial;
+    font-weight: bold;
+    font-style: italic;
+    color: #F27300;
+    text-align: left;
+    margin: 5px 0 0 5px;
+}
+
+.imgdireita{
+    margin: 3px;
+    background: #FFF;
+    border: 1px solid#F27300;
+    padding: 1px;
+}
+
+#bloco-direito p{
+    text-align: left;
+    font-size: 11px;
+    margin: 0 0 10px 8px;
+    color: #F27300;
+}
+
+
+#bloco-direito h2{
+    background: #F27300;
+    width: 100px;
+    font: 11px Arial, Tahoma;
+    text-align: left;
+    color: #FFF;
+    padding: 1px;
+    margin: 0 0 3px 5px;
+}
+
+#bloco-esquerdo{
+    width: 470px;
+    background: #f7fafb;
+    float: left;
+    padding: 5px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#bloco-esquerdo img{
+    margin-bottom: 10px;
+}
+
+#bloco-esquerdo p{
+    margin: 0 0 10px 0;
+}
+
+#bloco-esquerdo h1{
+    font-size: 18px;
+    color: #F27300;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+#rodape{
+    height: 30px;
+    width: 752px;
+    margin: 10px auto;
+    text-align: left;
+    padding-left: 4px;
+    font: 14px "Trebuchet MS", Arial;
+    color: #999;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#navilink {
+    text-align: right;
+    font: 10px Arial, Tahoma;
+    color: #666;
+    padding: 10px 17px 0 0;
+}
+
+
+#clear {
+    clear: both;
+}
+
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+    float: left;
+    list-style: none;
+}
+
+#menu ul li{
+   display: inline; 
+}
+
+#menu{
+    height: 29px;
+    width: 752px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: left;
+}
+
+#menu ul li a{
+    float: left;
+    margin: 2px 3px;
+    padding: 6px;
+    border-right: 1px solid #000;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menu ul li a:hover{
+    background: url("../images/bg-menu-hover.jpg");
+    color: #000;
+}
